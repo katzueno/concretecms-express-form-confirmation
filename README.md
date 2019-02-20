@@ -10,7 +10,7 @@ I'm in charge of setting up a new server and git repo for multiple projects.
 
 It's troublesome to make initial git repo by hand. So I made this git repo.
 
-Whenever there is a new concrete5 site project for a client, we can just cimply copy and paste this git files.
+Whenever there is a new concrete5 site project for a client, we can just simply copy and paste these files.
 
 ## Design
 
