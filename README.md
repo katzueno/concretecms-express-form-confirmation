@@ -33,6 +33,7 @@ We ignore
     - Visual Studio Code
 
 I welcome any PR and suggestion.
+If you don't like ".gitkeep" files. You are welcome to remove them.
 
 ## LICENSE
 
