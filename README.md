@@ -14,7 +14,7 @@ Whenever there is a new concrete5 site project for a client, we can just simply 
 
 ## Design
 
-We ignore
+This repo ignores
 
 - OS and file system files
 - concrete5 core file
@@ -34,6 +34,13 @@ We ignore
 
 I welcome any PR and suggestion.
 If you don't like ".gitkeep" files. You are welcome to remove them.
+
+This repo has
+- application/config/concrete.php
+    - Hide concrete5 version
+    - Email from addresses & name
+
+**You must change** config setting accordingly.
 
 ## LICENSE
 
