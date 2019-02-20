@@ -1,0 +1,79 @@
+# Originally maintained at
+# https://github.com/concrete5cojp/concrete5-gitignore/
+# @katzueno from concrete5 Japan, Inc.
+
+# ignore system files
+.DS_Store
+.idea
+thumbs.db
+__MACOSX
+._*
+.*swp
+.*swo
+*.iml
+Icon?
+
+# ignore composer files
+composer.phar
+
+# ignore the config
+/application/config/database.php
+/application/config/doctrine/*
+/application/config/generated_overrides/*
+/application/config/valet.*
+
+# ignore everything but the index.html
+/application/files/*
+!/application/files/index.html
+
+# ignore concrete folder
+/concrete/
+
+# ignore updates folder
+/updates/*
+!/updates/.gitkeep
+
+# Ignore Language Files but keep the directory
+/application/languages/*
+!/application/languages/.gitkeep
+
+# Ignore PHP Composer files
+/composer.json
+/composer.lock
+
+# ignore sitemap.xml
+/sitemap.xml
+
+# ignore the error log and .htaccess and others
+error_log
+.htaccess
+.htpasswd
+.ftpquota
+/.idea/
+
+# ignore Aptana and Eclipse project files
+.project
+
+# ignore Eclipse-specific files
+/.externalToolBuilders/
+/.settings/
+/.buildpath
+
+# ignore node modules used for building
+/build/node_modules
+/build/release
+/build/Gruntfile.parameters.js
+/build/npm-debug.log
+
+# ignore PHP symbol map
+__IDE_SYMBOLS__.php
+.phpstorm.meta.php
+
+# ignore custom php-cs-fixer configuration file
+/.php_cs
+
+# ignore php-cs-fixer cache file
+/.php_cs.cache
+
+# ignore Visual Code project files
+.vscode
