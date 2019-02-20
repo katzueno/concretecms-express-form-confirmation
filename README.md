@@ -36,6 +36,7 @@ I welcome any PR and suggestion.
 If you don't like ".gitkeep" files. You are welcome to remove them.
 
 This repo has
+
 - application/config/concrete.php
     - Hide concrete5 version
     - Email from addresses & name
