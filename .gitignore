@@ -33,7 +33,7 @@ composer.phar
 /updates/*
 !/updates/.gitkeep
 
-# Ignore Language Files but keep the directory
+# Ignore language Files but keep the directory
 /application/languages/*
 !/application/languages/.gitkeep
 
@@ -77,3 +77,6 @@ __IDE_SYMBOLS__.php
 
 # ignore Visual Code project files
 .vscode
+
+# ignore Nova project files
+.nova

@@ -49,4 +49,5 @@ MIT License.
 
 ## History
 
+- 2020.4.17 Added Panic's Nova project files to gitignore
 - 2019.2.20 Initial commit based on 8.4.4 & 8.5.0RC1
