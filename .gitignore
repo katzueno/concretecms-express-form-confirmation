@@ -4,17 +4,17 @@
 
 # ignore system files
 .DS_Store
-.idea
 thumbs.db
 __MACOSX
 ._*
 .*swp
 .*swo
 *.iml
-Icon?
 
-# ignore composer files
+# ignore PHP composer files
 composer.phar
+/composer.json
+/composer.lock
 
 # ignore the config
 /application/config/database.php
@@ -37,10 +37,6 @@ composer.phar
 /application/languages/*
 !/application/languages/.gitkeep
 
-# Ignore PHP Composer files
-/composer.json
-/composer.lock
-
 # ignore sitemap.xml
 /sitemap.xml
 
@@ -49,15 +45,6 @@ error_log
 .htaccess
 .htpasswd
 .ftpquota
-/.idea/
-
-# ignore Aptana and Eclipse project files
-.project
-
-# ignore Eclipse-specific files
-/.externalToolBuilders/
-/.settings/
-/.buildpath
 
 # ignore node modules used for building
 /build/node_modules
@@ -65,18 +52,24 @@ error_log
 /build/Gruntfile.parameters.js
 /build/npm-debug.log
 
-# ignore PHP symbol map
-__IDE_SYMBOLS__.php
-.phpstorm.meta.php
-
 # ignore custom php-cs-fixer configuration file
 /.php_cs
 
 # ignore php-cs-fixer cache file
 /.php_cs.cache
 
-# ignore Visual Code project files
+# ignore text editor files
+## Eclipse-specific files
+/.externalToolBuilders/
+/.settings/
+/.buildpath
+## PHPStorm
+__IDE_SYMBOLS__.php
+.phpstorm.meta.php
+.idea
+## Aptana and Eclipse
+.project
+## VS Code
 .vscode
-
-# ignore Nova project files
+## Nova
 .nova
