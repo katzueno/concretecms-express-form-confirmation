@@ -25,6 +25,7 @@ This repo ignores
     - main database.php
     - Doctrine
     - valet related config (Laravel's Mac OS local LNMP environment)
+- Composer's vendor folde
 - Sitemap.xml
 - PHP Composer files
 - Node files
@@ -43,11 +44,20 @@ This repo has
 
 **You must change** config setting accordingly.
 
+### [ATTENTION] Composer Vendor file
+
+I've added to ignore "vender" folders to git repo.
+
+If you install the package with vendor folder, you must manage to run `composer install` or modify to include the vendor directories.
+
+If you don't do anything with current gitignore, **you will get error** when you deploy the package with composer.json.
+
 ## LICENSE
 
 MIT License.
 
 ## History
 
+- 2020.8.24 Keep /composer.json & add vendor folder to gitignore
 - 2020.4.17 Added Panic's Nova project files to gitignore
 - 2019.2.20 Initial commit based on 8.4.4 & 8.5.0RC1
