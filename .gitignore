@@ -30,7 +30,7 @@ vendor/
 !/application/files/index.html
 
 # ignore concrete folder
-/concrete/
+/concrete
 
 # ignore updates folder
 /updates/*
