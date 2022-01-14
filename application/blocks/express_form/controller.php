@@ -3,7 +3,7 @@
 namespace Concrete\Block\ExpressForm;
 
 use Concrete\Block\ExpressForm\Conttoller as CoreController;
-use Application\Core\Express\Entry\Notifier\Notification\FormBlockSubmissionEmailNotification;
+use Application\Express\Entry\Notifier\Notification\FormBlockSubmissionEmailNotification;
 use Concrete\Core\Express\Entry\Notifier\Notification\FormBlockSubmissionNotification;
 
 class Controller extends CoreController
