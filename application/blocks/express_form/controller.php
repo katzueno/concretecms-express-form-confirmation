@@ -1,8 +1,8 @@
 <?php
 
-namespace Concrete\Block\ExpressForm;
+namespace Application\Block\ExpressForm;
 
-use Concrete\Block\ExpressForm\Conttoller as CoreController;
+use Concrete\Block\ExpressForm\Controller as CoreController;
 use Application\Express\Entry\Notifier\Notification\FormBlockSubmissionEmailNotification;
 use Concrete\Core\Express\Entry\Notifier\Notification\FormBlockSubmissionNotification;
 
