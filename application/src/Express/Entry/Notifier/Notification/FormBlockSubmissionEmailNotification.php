@@ -1,5 +1,5 @@
 <?php
-namespace Concrete\Core\Express\Entry\Notifier\Notification;
+namespace Application\Express\Entry\Notifier\Notification;
 
 use Concrete\Core\Express\Entry\Notifier\Notification\FormBlockSubmissionEmailNotification as CoreFormBlockSubmissionEmailNotification;
 use Concrete\Core\Entity\Attribute\Value\ExpressValue;
