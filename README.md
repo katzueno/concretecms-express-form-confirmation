@@ -1,6 +1,6 @@
 # Concrete CMS patch for Express Form to send Confirmation Email to Form Submitter
 
-Version
+Version 2.0.0
 By @katzueno
 
 This is override of express form of Concrete CMS so that you can send an notification email to form submitter.
