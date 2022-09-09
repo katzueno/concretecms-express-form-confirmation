@@ -33,6 +33,7 @@ class FormBlockSubmissionEmailNotification extends CoreFormBlockSubmissionEmailN
                 }
             }
             $mh->addParameter('attributes', $this->getAttributeValues($entry));
+            $mh->addParameter('associations', $this->getAssociations($entry));
             $mh->load('block_express_form_submission');
             if (empty($mh->getSubject())) {
                 $mh->setSubject(t('Website Form Submission – %s', $this->getFormName($entry)));
@@ -59,6 +60,7 @@ class FormBlockSubmissionEmailNotification extends CoreFormBlockSubmissionEmailN
             }
             */
             $mh->addParameter('attributes', $this->getAttributeValues($entry));
+            $mh->addParameter('associations', $this->getAssociations($entry));
             $mh->load('block_express_form_submission_user');
             if (empty($mh->getSubject())) {
                 $mh->setSubject(t('Website Form Submission – %s', $this->getFormName($entry)));
