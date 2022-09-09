@@ -29,4 +29,7 @@ MIT License.
 
 ## History
 
-- 2022.1.14 Initial working patch
+| Released on | Version | Notes |
+|----------|--------|-------|
+| 2022.9.9 | 2.0.0 | Association support added & only supports Concrete CMS 9.1.1 and later |
+| 2022.1.14 | 1.0.0 | Initial working patch |
